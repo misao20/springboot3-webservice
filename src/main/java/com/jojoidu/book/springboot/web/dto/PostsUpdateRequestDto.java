@@ -1,9 +1,9 @@
 package com.jojoidu.book.springboot.web.dto;
 
-import lombok.Builder;
-import lombok.Getter;
+import lombok.*;
 
 @Getter
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class PostsUpdateRequestDto {
 
     private String title;
